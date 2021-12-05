@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="../../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="gas-filter">
+        <img src="../../images/search.png"><input type="text" id="location" name="location">
+        <!-- rest of filter -->
+    </div>
+    <div id="price-range">
+        <div id="lowest-price"></div>
+        <div id="spread-price"></div>
+        <div id="highest-price"></div>
+    </div>
+    <div>
+        <div class="gas-station">
+            <div>
+                <img>
+                <h3>Costco</h3><div>5<img src="../../images/star.png"></div>
+                <p>500 Brookhaven Ave</p>
+                <p>5.9 mi</p>
+            </div>
+            <div class="priceSign">
+                3.39
+                <!-- maybe make the 9/10 an image to put next to the price? idk -->
+            </div>
+        </div>
+        <!-- skipped QuikTrip for the meantime -->
+        <div class="gas-station">
+            <div>
+                <img>
+                <h3>Shell</h3><div>4<img src="../../images/star.png"></div>
+                <p>3799 Buford Highway</p>
+                <p>4.9 mi</p>
+            </div>
+            <div class="priceSign">
+                <a href="../reportgas/setprice.html"><button>Report Price</button></a>
+            </div>
+        </div>
+    </div>
+    <a href="gasmap.html"><img src="../../images/map-button.png"></a>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="../../js/index.js"></script>
+</html>
