@@ -1,3 +1,30 @@
 .hidden{
     display: none;
 }
+.profile{
+    background-color:teal;
+    overflow: hidden;
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.column{
+    float:left;
+    width:50%;
+    padding:10px;
+    height: 200px;
+    color:whitesmoke;
+    background-color: teal;
+    text-align: center;
+    border:solid 2px;
+    border-color: White;
+    
+}
+.row:after{
+    display: table;
+    clear:both;
+    background-color: teal;
+    text-align: center;
+}
