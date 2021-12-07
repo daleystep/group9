@@ -4,12 +4,13 @@
 <link href="../../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<div id="login">
+    <div class="spacing">.</div>
     <div>
         <img src="../../images/gasbuddy-logo-vector 1.png" />
-        <h3>more ways to save</h3>
-        <h3>more places to save</h3>
+        <h3 style="text-align: center;">More Ways to Save,<br />More Places to Save</h3>
     </div>
-    <div>
+    <div style="text-align: center;">
         <h4>Sign in With</h4>
         <div class="login-method">
             <img id="Google" src="../../images/google.png" />
@@ -17,12 +18,18 @@
             <img id="Apple" src="../../images/apple.png" />
         </div>
     </div>
+    <div class="spacing">.</div>
 
-    <div class="hidden" id="login-overlay">
-        <p id="login-prompt"></p>
-        <button id="cancel-button">Cancel</button>
-        <a href="signup.html"><button id="continue-button">Continue</button></a>
+    <div class="hidden modal" id="login-overlay">
+        <div id="login-modal">
+            <p id="login-prompt"></p>
+            <div class="row" style="justify-content: space-evenly;">
+                <a href="../findgas/gaslist.html"><button id="continue-button">Continue</button></a>
+                <button id="cancel-button">Cancel</button>
+            </div>
+        </div>
     </div>
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="../../js/index.js"></script>
