@@ -61,6 +61,16 @@ body{
 .APPS{
     padding: 50px 50px;
 }
+.logo{
+    align-content: center;
+    padding-right: 2px;
+    background-image:linear-gradient(#0097A9, white);
+    width: 100%;
+}
+.about{
+    text-align: center;
+    background-image:linear-gradient(#0097A9, white);
+}
 
 .gas-float{
     z-index: 3;
@@ -81,6 +91,7 @@ body{
 .topNav a{
     float: left;
     padding: 12px;
+    padding-bottom: 90%;
     color:black;
     text-decoration: none;
     font-size: 17px;
@@ -93,7 +104,7 @@ ul{
 .profile{
     background-image: linear-gradient(#0097A9, white);
     overflow: hidden;
-    color:whitesmoke;
+    color:black;
     text-align: center;
     padding: 20px 26px;
     text-decoration: none;
@@ -124,7 +135,7 @@ ul{
     width:50%;
     height: 180px;
     padding: 50px;
-    color:whitesmoke;
+    color:black;
     background-image: linear-gradient(#0097A9, white);
     text-align: center;
     border-top:solid 2px;
